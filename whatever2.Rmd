@@ -1,0 +1,28 @@
+---
+title: "whatever2"
+output: html_document
+---
+
+# Maybe I want to show you about Taylor Swift now (WHY NOT?!)
+
+```{r, echo = F, message = F, warning = F}
+library(tidyverse)
+library(taylor)
+
+metacritic <- taylor_albums
+
+# Not Taylor's best work, so we'll give it a 72
+metacritic$metacritic_score[1] <- 72L
+metacritic <- subset(metacritic, !is.na(metacritic_score))
+metacritic$album_name <- factor(metacritic$album_name,
+                                levels = album_levels)
+
+ggplot(metacritic, aes(x = metacritic_score, y = album_name)) +
+  geom_col(aes(fill = album_name), show.legend = FALSE) +
+  scale_fill_albums() +
+  labs(x = "Metacritic Rating", y = NULL) +
+  theme_minimal()
+
+```
+
+Also, I can talk about what you see here. 

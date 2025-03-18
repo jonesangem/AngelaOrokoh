@@ -1,21 +1,22 @@
-name: "Student, Computational Social Scientist"
+name: "Yay internet!"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "Angela Orokoh, MA MSW"
   right:
+    - text: "Home"
+      href: index.html
     - text: 'Projects' ## setting up a drop down menu
       menu:
-        - text: 'Plotly'
-          href: text.html
-        - text: 'Shiny/Tableau'
-          href: text2.html
-    - text: "About"
-      href: about.html
+        - text: 'Housing Instability and Precarity'
+          href: pages/example.html
+        - text: 'GIS Mapping, Land Use Change'
+    - text: "CV"
+      href: https://docs.google.com/document/d/1PeZxkU4k6ZhjKhZXl0NFEiLEMXSodCvR/edit?usp=drive_link&ouid=108299697366530637868&rtpof=true&sd=true
     - icon: fa-github fa-lg
-      href: http://github.com/
-output: 
+      href: http://github.com/jonesange
+    
+sidebar:
+  - getting-started
+output:
   html_document:
-    theme: united
-    toc: yes
-    toc_float:
-      collapsed: false
+    theme: spacelab

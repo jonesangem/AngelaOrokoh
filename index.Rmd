@@ -1,24 +1,9 @@
 ---
-title: "Look at this!"
+title: "Angela Orokoh!"
 ---
 
-# I have a webpage!
+### (Housing, houisng policy, race and ethnicity, poverty and income, GIS Methods)
 
-And I can put all kinds of stuff on it!
+My name is Angela Jones-Orokoh. I am a rising 3rd year PhD student at the University of Chicago Crown School of Social Work, Policy, and Practice. I study racial, economic, and spatial inequality, particularly in the context of housing, neighborhood change, and public policy. My research, which takes a transdisciplinary approach and utilizes quantitative, computational, and historic-comparative methods, is aimed at investigating the multifactorial conditions of housing. In my current research, I focus on African American applied heuristics of the ‘right to the city’ within the United States and the spatial expressions and productions of self-determination within the urban context. 
 
-Here we've got some general setup for your webpage. 
-
-# Here is a heading
-
-[This links to other pages!](about)
-
-
-
-## Advancing your skills
-
-You can take what we've done here and do additional adaptations. 
-
-For example, you can explore other formats, [such as prettydoc](https://prettydoc.statr.me/) as it will give you greater customization. 
-
-### Custom CSS
-If you're looking to REALLY customize, you can add a custom.css file. You can see there is an example css file here that can make some changes. To add them, you can add `css: custom.css', indenting it under 'html' in [the _site.yml](_site.yml) file. 
+![.](Img/Headshot.jpg)
